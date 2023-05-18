@@ -1,0 +1,38 @@
+th{
+    text-align: center;
+
+}
+.cart_img-box{
+    width: 80px;
+}
+.cart_img-box img{
+     width: 100%;
+}
+.cart_item-delete i{
+    cursor: pointer;
+}
+.AddToCart_button{
+    border: none;
+    padding: 7px 25px;
+    background: #df2020;
+    color: #ffff !important;
+    border-radius: 6px;
+
+}
+.AddToCart_button a{
+  color: #ffff;
+}
+.AddToCart_button a:hover{
+    text-decoration: none;
+    color: #ffff;
+}
+.cart_subtotal{
+   color: #df2020;
+   font-size: 1.5rem;
+}
+
+@media only screen and (max-width:768px) {
+      th,td{
+        font-size: 0.8rem;
+      }
+}

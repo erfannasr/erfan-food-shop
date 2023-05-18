@@ -1,0 +1,138 @@
+.single_product-content{
+    padding-left:50px ;
+}
+.product_price{ 
+    color: #df2020;
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    margin-bottom: 0;
+}
+
+.product_price span{
+  font-size: 2rem;
+  color: #df2020;
+}
+.category{
+    font-weight: 600;
+    color: #212245;  
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    margin-top: 10px;
+}
+.category span{
+    padding: 5px 10px; 
+    color: #212245;
+    border-radius: 5px;
+    background:#fde4e4 ;
+  
+}
+.addToCart_btn{
+    border: none;
+    padding: 7px 25px;
+    background: #df2020;
+    color: #fff;
+    border-radius: 6px;
+}
+.tabs{
+    border-bottom: 1px solid #fab209;
+}
+.tabs h6{
+    cursor: pointer;
+}
+.tab_Content{
+   padding: 30px 0 ;  
+}
+.tab_Content p {
+    line-height: 30px;
+    color: #212245;
+}
+.tab_active{
+    color: #df2020;
+}
+.form{
+    width: 60%;
+    margin: auto;
+    background: #fde4e4;
+    padding: 20px;
+    border-radius: 10px;
+}
+.form_group{
+    margin-bottom: 30px;
+}
+.form_group input , .form_group textarea{
+    width: 100%; 
+    background: transparent;
+    padding: 7px 20px;
+    border: none;
+    border-bottom: 1px solid #212245b6;
+}
+.form_group input:focus , .form_group textarea:focus{
+    outline: none;
+}
+.user_name{
+    font-weight: 600;
+    color: #212245;
+}
+.user_email{
+    font-size: 0.8rem;
+}
+.feedback_text{
+    color: #212245b6;
+}
+.img_item{
+    cursor: pointer;
+}
+.realted_product-title{
+    font-size: 1.4rem;
+}
+   /* MEDIA SCREEN 768 */
+@media only screen and (max-width:768px){
+      .product_title{
+        font-size: 1.2rem;
+        
+      }
+      .product_price , .product_price span  {
+        font-size: 1rem;
+      }
+      .category ,.category span{
+          font-size: 0.8rem !important;
+      }
+      .tabs{
+        margin-top: 30px;
+      }
+      .tabs h6{
+        font-size: 0.9rem;
+      }
+      .tab_Content p ,.user_name , .feedback_text {
+        font-size: 0.8rem;
+      }
+      .user_email{
+        font-size: 0.7rem;
+      }
+      .form{
+        width: 100% !important;
+        margin-top: 50px;
+      }
+      .form_group input::placeholder ,.form_group textarea::placeholder{
+           font-size: 0.8rem;    
+      } 
+      .realted_product-title{
+        font-size: 1.2rem;
+      }
+    }
+    /* MEDIA SCREEN 576 */
+    @media only screen and (max-width:576px){
+        .porduct_images{
+            display: flex;
+            flex-direction: row;
+        }
+        .products_main-img{
+            margin-bottom: 20px;
+            width: 50%;
+        }
+
+
+    }
+     

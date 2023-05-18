@@ -1,0 +1,14 @@
+.review_text{
+    color: #777;
+    line-height: 30px;
+    max-width: 40px 0;
+}
+.slider_content img{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+ }
+ .slider_content {
+    
+ }

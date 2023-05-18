@@ -1,0 +1,134 @@
+.feature_subtitle{
+    color: #df2020;
+    
+}
+.feature_title span{
+    color: #df2020;
+}
+.feature_text{
+    color: #777;
+
+}
+.feature_items p {
+    color: #777;
+}
+.Food_category{
+    background: #df2020;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 0;
+    border-radius: 8px;
+}
+.Food_category button{
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    color: #fff;
+    background: transparent;
+}
+.Food_category button img{
+   width: 20px;
+   height: 20px;
+}
+.FoodBtnActive{
+    background: #fff !important;
+    border-radius: 5px;
+    color: #df2020 !important;
+}
+.tasty_traet-title span{
+     color: #df2020;
+}
+
+.tasty_traet-desc{
+    color: #777;
+    line-height: 28px;
+}
+.choose_us-title{
+    font-weight: 600;
+
+}
+.choose_us-title i{
+
+   font-weight: 500 !important;
+   color: #df2020;
+}
+.testimonial_subtitle{
+    color: #df2020;
+
+}
+.testimonial{
+
+}
+.testimonial_title span{
+  color: #df2020;
+}
+.testimonial_desc{
+    color: #777;
+    line-height: 30px;
+}
+
+
+
+@media only screen and (max-width:768px) {
+    .hero_content h5{
+        font-size: 1rem;
+      }
+      .hero_content p{
+        font-size: 0.9rem;
+        line-height: 20px;
+      }
+      .hero_title{
+            font-size: 1.5rem;
+            line-height: 40px;
+      }
+      .hero_btn{
+        justify-content: center;
+      }
+      .hero_btn button{
+        padding: 5px 15px;
+        font-size: 0.7rem;
+        align-items: center;
+      }
+      .hero_service p{
+             font-size: 0.7rem !important;
+      }
+      .feature_items h5{
+         font-size: 0.9rem;
+      }
+      .feature_items p{
+        font-size: 0.8rem;
+      }
+      .feature_subtitle{
+       font-size:  1rem; ;
+      } 
+     .feature_text {
+      font-size: 0.9rem;
+      margin-bottom: 0;
+     }
+     .Food_category {
+       padding:15px;
+     }
+     .Food_category button{
+      padding: 5px 15px;
+      font-size: 0.7rem;
+     }
+     
+}
+@media only screen and (max-widthP:576px) {
+      .hero_content{
+        text-align: center;
+      }
+     
+      .hero_title{
+        font-size: 1.5;
+        list-style: 40px;
+      }
+      .hero_btn{
+        justify-content: center;
+      
+      }
+     
+      .hero_service{
+        justify-content: center;
+      }
+}

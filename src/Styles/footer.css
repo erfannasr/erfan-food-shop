@@ -1,0 +1,79 @@
+.footer{
+    padding-top: 50px;
+    background: #fde4e4;
+    padding-bottom: 30px;
+
+}
+.footer_logo img{
+  width: calc(100% - 80%);
+  margin-bottom: 5px;
+}
+.footer_logo h5{
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+.footer_logo p{
+    font-size: 1.3rem;
+    color: #333;
+    line-height: 28px;
+}
+
+.delivery_time-item {
+    background: transparent !important;
+}
+.delivery_time-item span{ 
+   font-weight: 600;
+   font-size: 1rem;
+   color: #212245;
+   
+
+}
+.delivery_time-item p{
+    color: #212245;
+}
+.footer_title{
+    font-size: 1.1rem;
+    color: #212245;
+    font-weight: 600;
+
+}
+.newsletter {
+    padding:5px;
+    border: 1px #212245 solid;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.newsletter input {
+     background: transparent;
+      border: none;
+      outline: none;
+}
+.newsletter input:focus{
+    outline: none;
+}
+.newsletter span{
+    background: #212245;
+    padding: 5px 28px;
+    border-radius: 5px
+}
+.newsletter input::placeholder{
+    color: #212245;
+}
+.newsletter span i {
+    color: #fff;   
+}
+.social_links span i{
+    padding: 5px;
+    background: #212245;
+    color: #fff;
+    border-radius: 50%;
+
+}
+.copyright_text{
+    font-size: 1.3rem;
+    color: #df2020; 
+}
